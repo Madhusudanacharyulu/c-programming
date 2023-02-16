@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+double x,y,result;
+printf("enter the values for x and y:");
+scanf("%lf%lf",&x,&y);
+result = pow(x, y);
+printf("%.3lf", result);
+return 0;
+}
